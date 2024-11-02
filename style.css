@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    /* box-sizing: border-box; */
+}
+
+nav .logo img{
+    width: 110px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 120px;
+
+    /* border: 2px solid black; */
+
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+
+    /* border: 2px solid black; */
+    padding: 0px 15px;
+    /* padding-left: 38px; */
+    font-size: 14px;
+}
+
+.links select{
+    border: none;
+}
+.links{
+    font-weight: bold;
+
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 800px; */
+    align-items: center;
+}
+
+.links select {
+    font-weight: bold;
+    padding: 0px 15px;
+    /* padding-left: 5px; */
+}
+
+
+
+
+
+
+
+/* slider section  */
+
+.slider {
+    background: url("http://www.nialjewar.com/img/SLIDE_02.jpg");
+    width: 100%;
+    height: 300px;
+    background-position: center;
+
+}
+
+
+
+
+
+/* black ribbon  */
+.black_ribbon{
+    background-color: #120f0fc3;
+    padding: 0px 120px;
+    /* height: 100px; */
+    /* width: 100%; */
+
+    position: relative;
+    /* bottom: 100px; */
+
+
+    display: flex;
+
+    /* border: 4px solid black; */
+}
+
+.black_ribbon .box1{
+    width: 25%;
+    height: 90px;
+    
+
+    color: white;
+}
+
+
+/* .black_ribbon .box1:first-child{
+background-color: #9c918c50;
+} */
+
+.black_ribbon .box1:hover{
+    background-color: #9c918c50;
+    }
+
+.black_ribbon .box1>img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.black_ribbon .box1 span img{
+    width: 20px;
+}
+
+.box1{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    /* border: 2px solid yellow; */
+    justify-content: space-evenly;
+    /* align-content: space-evenly; */
+    /* margin-top: 30px; */
+    padding-top: 10px;
+}
+
+
+/* ribbon2  */
+
+
+.ribbon2 {
+    height: 30px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+
+    /* border: 10px solid black; */
+
+    background-color: white;
+    /* box-shadow: ; */
+}
+
+
+
+
+
+
+
+.section1{
+    background-color: #F1F1F1;
+    height: 500px;
+}
+
+.ribbon{
+    display: flex;
+    background-color: #3399FF;
+    color: white;
+
+    padding: 0px 120px;
+}
+
+.ribbon marquee {
+    width: 80%;
+}
+.ribbon>span{
+    color: black;
+    background-color: yellow;
+    /* border-radius: 30px 30px 70px 70px; */
+    border-radius: 0px 0px 100px 100px;
+
+    padding: 0px 10px;
+
+}
+
+.eight_box{
+    padding: 30px 100px;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+
+    margin-top: 10px;
+}
+.box_one{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* border: 2px solid black; */
+    background-color: #FFFFFF;
+    width: 200px;
+    padding: 30px 60px;
+
+    text-align: center;
+}
+.box_one img{
+    width: 30px;
+    /* margin-left: 5px; */
+    /* border: 1px solid black; */
+}
+.box_one span{
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+.section3{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    /* padding: 30px 100px */
+}
+
+.foot1{
+    margin-left: 100px;
+    width: 100px;
+}
+.foot3{
+    margin-right: 100px;
+}
+
+
+.foot1, .foot2,.foot3 {
+    width: 400px;
+    margin-top: 50px;
+   
+}
+
+.foot2 form input{
+    width: 415px;
+    text-transform: uppercase;
+    background-color: black;
+    outline: white;
+    border: 2px solid white;
+
+    height: 30px;
+}
+
+.foot2 form button{
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 9px 18px;
+    border-radius: 5px;
+
+    margin-left: 150px;
+
+}
+
+
+.foot2 form textarea {
+    text-transform: uppercase;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.foot2 span{
+    font-size: 20px;
+    margin-left: 150px;
+    margin-bottom: 15px;
+}
+
+.foot2 form input::placeholder{
+    text-align: center;
+    padding-top: 10px;
+    height: 30px;
+}
+
+.foot2 form textarea::placeholder{
+    text-align: center;
+    padding-top: 30px;
+
+}
+.foot2 span{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+
+.section4{
+    background-color: #007BFF;
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+
+    /* padding: 0px 100px; */
+}
+
+.section4 span{
+    color: white;
+    padding: 0px 100px;
+}
